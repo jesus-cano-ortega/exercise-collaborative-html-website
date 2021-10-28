@@ -8,6 +8,12 @@
 
     <!-- LINK BOOTSTRAP CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+      body{ font-family: 'Roboto', sans-serif; }
+    </style>
+
 </head>
 <body>
 
@@ -19,21 +25,27 @@
             <!-- NAVBAR (JESÚS)  -->
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#"><img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24">Navbar</a>
+                  <!-- https://www.malaga.eu/export/sites/malagaeu/el-ayuntamiento/.galleries/Imagen-Corporativa/DOCUMENTOS-Escudo-simplificado/ayto-horizontal-2lineas-positivo-logo-izq.png -->
+                  <a class="navbar-brand" href="#"><img src="https://feria.malaga.eu/opencms/export/sites/feria/.content/galerias-imagenes/logos/cabecera_feria_2017.png_372222391.png
+                    " class="mx-3" alt="Logotipo Feria de Málaga" width="130" height="60"></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
+
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#">Vive la Feria</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">Programa</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Espacios</a>
                       </li>
                       <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Dropdown
+                          Información práctica
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                           <li><a class="dropdown-item" href="#">Action</a></li>
@@ -42,8 +54,9 @@
                           <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                       </li>
+                      
                       <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Todo sobre la Feria</a>
                       </li>
                     </ul>
                     <form class="d-flex">
@@ -66,9 +79,10 @@
                   <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
+
                   <div class="carousel-item active">
-                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-            
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#545"/></svg>
+
                     <div class="container">
                       <div class="carousel-caption text-start">
                         <h1>Example headline.</h1>
@@ -77,6 +91,7 @@
                       </div>
                     </div>
                   </div>
+
                   <div class="carousel-item">
                     <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
             
