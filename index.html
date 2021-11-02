@@ -1,14 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feria de Málaga</title>
+    <title>Feria de Málaga 2021 | Ayuntamiento de Málaga </title>
+    <!-- FAVICON -->
+    <link rel="icon" href="https://imesapi.es/wp-content/uploads/2016/01/logo_aytomalaga.jpg" type="image/x-icon">
 
     <!-- LINK BOOTSTRAP CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+    <!-- LINK FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+    <!-- IMPORTACIÓN DE ESTILOS (TIPOGRAFÍA) -->
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
       body{ font-family: 'Roboto', sans-serif; }
@@ -18,59 +24,61 @@
 <body>
 
     <!-- MAIN CONTAINER -->
-    <div class="container-fluid">
+    <div class="container-fluid m-0 p-0">
 
         <!-- HEADER -->
-        <header class="container-fluid">
+        <header class="container-fluid m-0 p-0">
             <!-- NAVBAR (JESÚS)  -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #980000;">
                 <div class="container-fluid">
-                  <!-- https://www.malaga.eu/export/sites/malagaeu/el-ayuntamiento/.galleries/Imagen-Corporativa/DOCUMENTOS-Escudo-simplificado/ayto-horizontal-2lineas-positivo-logo-izq.png -->
-                  <a class="navbar-brand" href="#"><img src="https://feria.malaga.eu/opencms/export/sites/feria/.content/galerias-imagenes/logos/cabecera_feria_2017.png_372222391.png
-                    " class="mx-3" alt="Logotipo Feria de Málaga" width="130" height="60"></a>
+                  
+                  <a class="navbar-brand" href="#"><img src="./images/logo-malaga.png" class="mx-3" alt="Logotipo Feria de Málaga" width="130" height="60"></a>
+                  
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
 
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Vive la Feria</a>
+                      <li class="nav-item mx-2">
+                        <a class="nav-link" aria-current="page" href="#" style="color: #f7f7a3">Vive la Feria</a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Programa</a>
+                      <li class="nav-item mx-2">
+                        <a class="nav-link" href="#" style="color: #f7f7a3">Programa</a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Espacios</a>
+                      <li class="nav-item mx-2">
+                        <a class="nav-link" href="#" style="color: #f7f7a3">Espacios</a>
                       </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <li class="nav-item dropdown mx-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #f7f7a3">
                           Información práctica
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown" >
                           <li><a class="dropdown-item" href="#">Action</a></li>
                           <li><a class="dropdown-item" href="#">Another action</a></li>
                           <li><hr class="dropdown-divider"></li>
                           <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                       </li>
-                      
-                      <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Todo sobre la Feria</a>
+                      <li class="nav-item mx-2">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true" style="color: #f7f7a3">Todo sobre la Feria</a>
                       </li>
                     </ul>
+
                     <form class="d-flex">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Search</button>
+                      <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+                      <button class="btn btn-outline-warning" type="submit"><i class="fas fa-search" style="color: #f7f7a3"></i></button>
                     </form>
                   </div>
+
                 </div>
               </nav>
         </header>
 
 
         <!-- MAIN -->
-        <main class="container-fluid">
+        <main class="container-fluid m-0 p-0" style="background-color: #fcfcea;">
             <!-- TAGLINE (JESÚS) -->
             <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -81,8 +89,8 @@
                 <div class="carousel-inner">
 
                   <div class="carousel-item active">
-                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#545"/></svg>
 
+                    <img class="img-fluid" src="./images/image-1.jpg" alt="Amazona paseando por el Cortijo de Torres durante la Feria de Málaga 2019.">
                     <div class="container">
                       <div class="carousel-caption text-start">
                         <h1>Example headline.</h1>
@@ -93,10 +101,10 @@
                   </div>
 
                   <div class="carousel-item">
-                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-            
+                    <img class="img-fluid" src="./images/image-2.jpg" alt="Amazona paseando por el Cortijo de Torres durante la Feria de Málaga 2019.">
+
                     <div class="container">
-                      <div class="carousel-caption">
+                      <div class="carousel-caption text-start">
                         <h1>Another example headline.</h1>
                         <p>Some representative placeholder content for the second slide of the carousel.</p>
                         <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
@@ -104,10 +112,10 @@
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+                    <img class="img-fluid" src="./images/image-3.jpg" alt="Amazona paseando por el Cortijo de Torres durante la Feria de Málaga 2019.">
             
                     <div class="container">
-                      <div class="carousel-caption text-end">
+                      <div class="carousel-caption text-start">
                         <h1>One more for good measure.</h1>
                         <p>Some representative placeholder content for the third slide of this carousel.</p>
                         <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
@@ -127,19 +135,27 @@
 
             <!-- FIRST HEADING (JESÚS) -->
             <div class="container-fluid">
-                <hr class="featurette-divider">
                 <div class="row featurette">
-                  <div class="col-md-7">
-                    <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-                    <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
-                  </div>
+
+                    <div class="col-md-7 p-5">
+                      <h2 class="featurette-heading pt-5 pb-2">La Feria de Málaga, reina de todas las ferias</h2>
+                      <p class="lead pb-3">Además de un gran acontecimiento ciudadano, la Feria de Málaga es, también, un macrofestival formado por festivales
+                        diversos que dejan constancia de la riqueza cultural de la capital malagueña: desde la Feria de Día, 
+                      donde el centro de la ciudad se convierte en un hervidero de gente, sonidos y colores, pasando por las casetas, 
+                      puestos feriantes y atracciones de la Feria de Noche en el Real del Cortijo de Torres.</p>
+                      <div class="d-flex flex-row justify-content-start">
+                        <button type="button" class="btn btn-danger rounded-pill shadow-sm p-3 mb-5 bg-red rounded py-2">Programa en PDF<i class="fas fa-arrow-down px-2"></i></button>
+                        <button type="button" class="btn btn-light rounded-pill shadow-sm p-3 mb-5 bg-white rounded py-2 mx-4">Avisos y alertas <i class="far fa-bell px-2"></i></button>
+                        <button type="button" class="btn btn-light rounded-pill shadow-sm p-3 mb-5 bg-white rounded py-2">La Feria en directo <i class="fas fa-video px-2"></i></button>  
+                      </div>
+                    </div>
+
                   <div class="col-md-5">
                     <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
                   </div>
                 </div>
-                <hr class="featurette-divider">
-            </div>
 
+            </div>
 
             <!-- SECOND HEADING (MARINA) -->
 
