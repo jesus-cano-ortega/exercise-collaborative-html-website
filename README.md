@@ -5,7 +5,7 @@
 El objetivo de este proyecto es poner en práctica las habilidades en GIT a la vez que desarrollamos un sitio web, en concreto una página que trata sobre la festividad
 de la Feria de Málaga. La idea es que cada alumno trabaje en un archivo diferente para cada parte del sitio web, y finalmente se realice una integración así como un despliegue. 
 
-Alumno 1: Marina Roz
+Alumno 1: Marina Roz <br>
 Alumno 2: Jesús Cano
 
 ### Instrucciones 
