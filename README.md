@@ -18,7 +18,7 @@ las modificaciones necesarias antes de enviar los archivos a la rama auxiliar.
 
 Un ejemplo de correcto flujo de desarrollo sería el de la siguiente imagen: 
 
-<img src="https://miro.medium.com/max/823/1*uUpzVOpdFw5V-tJ_YvgFmA.png" width="100" alt="Git Flow Scheme">
+<img src="https://miro.medium.com/max/823/1*uUpzVOpdFw5V-tJ_YvgFmA.png" width="500" alt="Git Flow Scheme">
 
 - La rama azul (master), debe ser única y no ser modificada hasta el momento de la integración/despliegue. 
 - La rama lila (develop), hace referencia a la rama auxiliar, donde se enviará el progreso de los diferentes colaboradores.
